@@ -1,9 +1,11 @@
-$fuente_principal:"Montserrat", sans-serif;
+// $fuente_principal:"Montserrat", sans-serif;
+@use 'variables' as *;
 
 body {
     font-family: $fuente_principal;
     font-optical-sizing: auto;
     font-style: normal;
+    color: $negro;
   }
   
   h1{
