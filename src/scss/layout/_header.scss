@@ -1,0 +1,20 @@
+@use '../base/variables';
+
+.header{
+    background-color: $verde;
+    .contenido-header{
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1{
+        color: $blanco;
+    }
+}
+.navegacion-prncipal{
+    a{
+        color: $blanco;
+    }
+}
