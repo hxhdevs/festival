@@ -25,3 +25,17 @@
         }
     }
 }
+
+@mixin contenedor{ // con @mixin se crea el mixin
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.header-contenedor{
+    @include contenedor; // con @ include se usa el mixin
+}
+
+.nav.contenedor{
+    @include contenedor;
+}
