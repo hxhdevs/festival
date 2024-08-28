@@ -1,7 +1,11 @@
-@use '../base/variables';
+@use 'base/variables';
+@use 'base/mixins' as m;
 
 .header{
     background-color: $verde;
+
+    @include m.telefono;
+    
     .contenido-header{
         padding: 2rem;
         display: flex;
@@ -11,9 +15,10 @@
 
     h1{
         color: $blanco;
+        margin: 0;
     }
 }
-.navegacion-prncipal{
+.navegacion-principal{
     display: flex;
     gap: 2rem;
     a{
